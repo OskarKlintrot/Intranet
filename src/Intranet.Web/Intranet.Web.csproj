@@ -3,7 +3,6 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
     <UserSecretsId>Intranet-Web-841eb9c5-9544-4ea0-89cd-8a20defe5ad9</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
