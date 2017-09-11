@@ -11,6 +11,9 @@ script:
 
 cache:
   directories:
+  - ./src/packages
+  - ./src/tools
+  - ./src/Intranet.Web/node_modules
   - $HOME/.nuget/packages
 
 notifications:
