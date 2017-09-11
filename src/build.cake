@@ -83,7 +83,7 @@ Task("Restore-Packages")
 
       Information("Restoring NPM packages.");
 
-      NpmInstall(settings => settings.FromPath("./Intranet.Web"));
+      NpmInstall(settings => settings.FromPath("./Intranet.Web").WithLogLevel(NpmLogLevel.Warn));
 });
 
 Task("Build")
