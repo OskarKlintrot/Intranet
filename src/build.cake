@@ -1,4 +1,4 @@
-﻿#addin "NuGet.Core"
+#addin "NuGet.Core"
 #addin "Cake.ExtendedNuGet"
 #addin "Cake.Npm"
 #addin "Cake.DocFx"
@@ -65,7 +65,7 @@ Task("Restore-Packages")
 
       NuGetInstall("ImageSharp", new NuGetInstallSettings {
         OutputDirectory = tempCachePath,
-        Version = "1.0.0-alpha9-00171",
+        Version = "1.0.0-alpha9-00194",
         Source = new string[] { imageSharpSource, "https://api.nuget.org/v3/index.json" }
       });
 
